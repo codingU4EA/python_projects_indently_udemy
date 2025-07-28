@@ -5,6 +5,7 @@ lower_num, upper_num = 1, 10
 random_number: int = randint(lower_num, upper_num)
 print(f'Guess the number in the range from {lower_num} to {upper_num}.')
 
+
 # run an infinite loop for the game
 while True:
     # get the user guess
